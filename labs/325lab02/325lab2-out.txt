@@ -1,0 +1,116 @@
+
+Evan Putnam
+
+drop table parts
+           *
+ERROR at line 1:
+ORA-02449: unique/primary keys in table referenced by foreign keys 
+
+
+create table parts
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PART_NUM                                  NOT NULL NUMBER(38)
+ PART_NAME                                          VARCHAR2(25)
+ QUANTITY                                           NUMBER(38)
+ PRICE                                              NUMBER(38)
+
+
+insert into parts
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715353) violated 
+
+
+insert into parts
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715353) violated 
+
+
+insert into parts
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715353) violated 
+
+
+insert into parts
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715353) violated 
+
+
+insert into parts
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715353) violated 
+
+
+insert into parts
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715353) violated 
+
+
+
+  PART_NUM PART_NAME                   QUANTITY      PRICE                      
+---------- ------------------------- ---------- ----------                      
+      8438 Screw                            123         20                      
+      6547 Nail                           90000         12                      
+      7987 Bolt                             789         15                      
+      6548 Rebar                            985        600                      
+      9999 Nut                              639         17                      
+         0 QA                                 0   99999999                      
+
+6 rows selected.
+
+create table part_orders
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ORDER_NUM                                 NOT NULL NUMBER(38)
+ CUST_NUM                                           NUMBER(38)
+ PART_NUM                                           NUMBER(38)
+ ORDER_DATE                                         VARCHAR2(25)
+
+insert into part_orders
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715354) violated 
+
+
+insert into part_orders
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715354) violated 
+
+
+insert into part_orders
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715354) violated 
+
+
+insert into part_orders
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.SYS_C001715354) violated 
+
+
+
+ ORDER_NUM   CUST_NUM   PART_NUM ORDER_DATE                                     
+---------- ---------- ---------- -------------------------                      
+         1        985       7987 12/25/00                                       
+         2        654       6548 08/11/17                                       
+         3        321       9999 06/06/06                                       
+         4        123          0 example date                                   
+

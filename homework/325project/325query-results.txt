@@ -1,0 +1,121 @@
+=======
+Query 1
+=======
+Selects all events occurring this month...
+
+EVENT_ HOST_I EVENT_TITLE                      EVENT_DAT                        
+------ ------ -------------------------------- ---------                        
+1      9      Christmas Bird Count             14-DEC-22                        
+4      9      Audubon Society Bird Tour        04-DEC-23                        
+5      1      Arcata Marsh Birding             31-DEC-22                        
+8      10     Clam Beach Cleanup               10-DEC-22                        
+9      9      Mountain Quail Research          29-DEC-22                        
+10     2      Samoa Dunes Nature Walk          20-DEC-22                        
+
+6 rows selected.
+
+=======
+Query 2
+=======
+Selects all events occuring on Saturday or Sunday...
+
+EVENT_ HOST_I EVENT_TITLE                      EVENT_DAT                        
+------ ------ -------------------------------- ---------                        
+3      8      Bird Walk                        11-FEB-23                        
+5      1      Arcata Marsh Birding             31-DEC-22                        
+7      3      North Jetty Walk                 01-JAN-23                        
+8      10     Clam Beach Cleanup               10-DEC-22                        
+
+=======
+Query 3
+=======
+Selects locations ordered by number of bird sightings (Descending)...
+
+LOC_NAME                         No. Sighting                                   
+-------------------------------- ------------                                   
+South Jetty                                 3                                   
+Arcata Coast                                2                                   
+Strawberry Rock                             1                                   
+Mad River Estuary                           1                                   
+Arcata Bottoms                              1                                   
+Arcata Marsh                                1                                   
+North Jetty                                 1                                   
+
+7 rows selected.
+
+=======
+Query 4
+=======
+Selects locations ordered by number of bird sightings (Ascending)...
+
+LOC_NAME                         No. Sighting                                   
+-------------------------------- ------------                                   
+North Jetty                                 1                                   
+Strawberry Rock                             1                                   
+Mad River Estuary                           1                                   
+Arcata Bottoms                              1                                   
+Arcata Marsh                                1                                   
+Arcata Coast                                2                                   
+South Jetty                                 3                                   
+
+7 rows selected.
+
+=======
+Query 5
+=======
+Selects all sightings at South Jetty...
+
+LOC_NAME                         BIRD_NAME                                      
+-------------------------------- --------------------------------               
+South Jetty                      Northern Harrier                               
+South Jetty                      Mountain Quail                                 
+South Jetty                      Brown Pelican                                  
+
+=======
+Query 6
+=======
+Selects Birders sorted by number of sightings...
+
+BRDR_NAME            COUNT(SIGHT_ID)                                            
+-------------------- ---------------                                            
+Nitsua                             2                                            
+Wings                              2                                            
+StinkBird                          2                                            
+Stuart                             1                                            
+Envy                               1                                            
+Hermes                             1                                            
+BirdGuy_333                        1                                            
+
+7 rows selected.
+
+=======
+Query 7
+=======
+Selects Birders sorted by date joined (Ascending)...
+
+BRDR_I BRDR_NAME            FAVBIR FAVLOC DATE_JOIN                             
+------ -------------------- ------ ------ ---------                             
+3      Hermes               10     3      28-DEC-00                             
+5      Sloth                3      4      11-NOV-11                             
+6      Envy                 2      2      24-APR-17                             
+10     Stuart               8      7      27-OCT-17                             
+9      Wings                8      1      03-SEP-18                             
+2      StinkBird            5      6      18-AUG-19                             
+4      Billy                1      1      13-FEB-22                             
+7      Falco                8      8      01-JUN-22                             
+8      Nitsua               4      7      29-JUL-22                             
+1      BirdGuy_333          8      1      05-DEC-22                             
+
+10 rows selected.
+
+=======
+Query 8
+=======
+Selects Birders whose date_joined is less than the average date_joined...
+
+BRDR_NAME            DATE_JOIN                                                  
+-------------------- ---------                                                  
+Hermes               28-DEC-00                                                  
+Sloth                11-NOV-11                                                  
+Envy                 24-APR-17                                                  
+

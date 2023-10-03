@@ -1,0 +1,119 @@
+Evan Putnam
+===============
+Lab Problem 1
+===============
+
+View dropped.
+
+
+View created.
+
+===============
+Lab Problem 2
+===============
+
+EMPL_LAST_NAME      SALARY                                                      
+--------------- ----------                                                      
+King                  5000                                                      
+Jones                 2975                                                      
+Blake                 2850                                                      
+Raimi                 2450                                                      
+Ford                  3000                                                      
+Smith                  800                                                      
+Michaels              1600                                                      
+Ward                  1250                                                      
+Martin                1250                                                      
+Scott                 3000                                                      
+Turner                1500                                                      
+
+EMPL_LAST_NAME      SALARY                                                      
+--------------- ----------                                                      
+Adams                 1100                                                      
+James                  950                                                      
+Miller                1300                                                      
+
+14 rows selected.
+
+===============
+Lab Problem 3
+===============
+
+MAX(SALARY)                                                                     
+-----------                                                                     
+       5000                                                                     
+
+===============
+Lab Problem 4
+===============
+
+View dropped.
+
+
+View created.
+
+===============
+Lab Problem 5
+===============
+
+JOB_TITLE  MIN_HIRED                                                            
+---------- ---------                                                            
+Manager    02-APR-12                                                            
+Analyst    03-DEC-12                                                            
+Clerk      17-DEC-12                                                            
+President  17-NOV-11                                                            
+Sales      20-FEB-18                                                            
+
+===============
+Lab Problem 6
+===============
+
+MAX(MIN_H                                                                       
+---------                                                                       
+20-FEB-18                                                                       
+
+===============
+Lab Problem 7
+===============
+
+View dropped.
+
+
+View created.
+
+===============
+Lab Problem 8
+===============
+
+CUSTOMER                              REPD_BY         DEPT_LOC                  
+------------------------------------- --------------- ---------------           
+Firstly, First                        Michaels        Chicago                   
+Secondly, Second                      Martin          Chicago                   
+Thirdly, Third                        Michaels        Chicago                   
+
+===============
+Lab Problem 9
+===============
+
+View dropped.
+
+
+View created.
+
+
+DEPT_NAME       MIN_HIRED                                                       
+--------------- ---------                                                       
+Research        02-APR-12                                                       
+Accounting      09-JUN-12                                                       
+Management      17-NOV-11                                                       
+Sales           01-MAY-13                                                       
+Operations      23-SEP-18                                                       
+
+
+DEPT_NAME       MIN_HIRED DEPT_LOC                                              
+--------------- --------- ---------------                                       
+Management      17-NOV-11 New York                                              
+Research        02-APR-12 Dallas                                                
+Accounting      09-JUN-12 New York                                              
+Sales           01-MAY-13 Chicago                                               
+Operations      23-SEP-18 Boston                                                
+

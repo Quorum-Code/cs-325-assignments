@@ -1,0 +1,30 @@
+========
+Report 2
+========
+
+This file reports the number of rows associated between tables...
+
+=> Event + Birder <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Birder + Sighting <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Location + Sighting <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Bird + Sighting <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+

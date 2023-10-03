@@ -1,0 +1,34 @@
+                 === Birder Database ===
+
+This database was set up to be used for a birding service
+in which users can attend or create events, report their 
+bird sightings, and have their own account which contains
+other birding related information.
+
+-------
+
+The database is made up six tables; birder, location, bird,
+sighting, event, and birder_attending_event
+
+* Birder contains an id, username, favorite bird,
+  and favorite location
+
+* Location contains an id, and location name
+
+* Bird contains an id, and a bird name
+
+* Sighting contains an id, bird id, birder id, location id
+  and number of birds sighted.
+
+* Event contains an id, birder id (as a singular host id),
+  event date, and event title.
+
+* Birder_attending_event is used to connect many 
+  birders to a single event
+
+-------
+
+I think this could be used to gather people to participate
+in research projects that need a wide area of data collection
+which otherwise be impossible or difficult for small groups
+of researchers.

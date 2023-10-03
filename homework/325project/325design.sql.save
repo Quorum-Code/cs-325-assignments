@@ -1,0 +1,54 @@
+-- Evan Putnam
+-- CS 325 - Fall 2022
+-- Last Modified - 12/3/2022
+
+DROP TABLE bird CASCADE CONSTRAINTS;
+CREATE TABLE bird
+(bird_id	char(6),
+ bird_name	varchar(20) NOT NULL,
+ primary key (bird_id));
+
+DROP TABLE birder CASCADE CONSTRAINTS;
+CREATE TABLE birder
+(brdr_id 	char(6),
+ brdr_name	varchar2(20) NOT NULL,
+ favBird_id	char(6),
+ date_joined	date NOT NULL,
+ primary key (brdr_id),
+ foreign key (favBird_id) references bird(bird_id));
+
+DROP TABLE brd_seen;
+CREATE TABLE brd_seen
+(bird_id	char(6),
+ brdr_id	char(6),
+ num_seen	number(9),
+ primary key (bird_id),
+ foreign key (bird_id) references bird,
+ foreign key (brdr_id) references birder);
+
+DROP TABLE event CASCADE CONSTRAINTS;
+CREATE TABLE event
+(event_id	char(6),
+ event_title	varchar(30) NOT NULL,
+ event_date	date NOT NULL,
+ host_id	char(6),
+ primary key (event_id),
+ foreign key (host_id) references birder(brdr_id));
+
+DROP TABLE birder_attending_event;
+CREATE TABLE birder_attending_event
+(brdr_id	char(6),
+ event_id	char(6),
+ foreign key (brdr_id) references birder,
+ foreign key (event_id) references event);
+
+DROP TABLE location;
+CREATE TABLE location
+(loc_id		char(6),
+ loc_name	varchar(20),
+ num_birds	number(9));
+
+DROP TABLE loc_vistd;
+CREATE TABLE loc_vistd
+(brdr_id	char(6),
+ loc_id		char(6));

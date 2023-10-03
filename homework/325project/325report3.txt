@@ -1,0 +1,169 @@
+========
+Report 3
+========
+
+Data oriented report...
+Calculates number of birds sighted by each user,
+calculates number of birders attending each event,
+calculates users percentage of total birds sighted.
+
+
+Fri Dec 09                                                             page    1
+                       = User Report on Bird Sightings =
+
+BRDR_NAME            BRDR_I BIRD_NAME                         NUM_BIRDS         
+-------------------- ------ -------------------------------- ----------         
+BirdGuy_333          1      Stellar's Jay                             5         
+********************                                         ----------         
+No. Birds                                                             5         
+                                                                                
+                                                                                
+Envy                 6      Western Bluebird                          1         
+********************                                         ----------         
+No. Birds                                                             1         
+                                                                                
+                                                                                
+Hermes               3      Brown Pelican                            38         
+********************                                         ----------         
+No. Birds                                                            38         
+                                                                                
+                                                                                
+Nitsua               8      Ruddy Duck                               10         
+                     8      Dark-eyed Junco                           3         
+********************                                         ----------         
+No. Birds                                                            13         
+                                                                                
+                                                                                
+StinkBird            2      Mountain Quail                           20         
+                     2      Northern Harrier                         15         
+********************                                         ----------         
+No. Birds                                                            35         
+                                                                                
+                                                                                
+Stuart               10     Acorn Woodpecker                          2         
+********************                                         ----------         
+No. Birds                                                             2         
+                                                                                
+                                                                                
+Wings                9      Cackling Goose                            8         
+                     9      Pelagic Cormorant                        99         
+********************                                         ----------         
+No. Birds                                                           107         
+                                                                                
+                                                                                
+
+
+
+
+
+                               = END OF REPORT =
+
+10 rows selected.
+
+
+Fri Dec 09                                                             page    1
+                                = Event Report =
+
+EVENT_TITLE                      BRDR_NAME            BRDR_I                    
+-------------------------------- -------------------- ------                    
+California Condor Talk           Sloth                5                         
+                                 Hermes               3                         
+                                 Falco                7                         
+                                 Billy                4                         
+******************************** --------------------                           
+No. Birders Attending                               4                           
+                                                                                
+                                                                                
+Christmas Bird Count             BirdGuy_333          1                         
+                                 Envy                 6                         
+                                 Wings                9                         
+******************************** --------------------                           
+No. Birders Attending                               3                           
+                                                                                
+                                                                                
+Clam Beach Cleanup               Stuart               10                        
+******************************** --------------------                           
+No. Birders Attending                               1                           
+                                                                                
+                                                                                
+Godwit Days                      BirdGuy_333          1                         
+******************************** --------------------                           
+No. Birders Attending                               1                           
+                                                                                
+                                                                                
+North Jetty Walk                 BirdGuy_333          1                         
+******************************** --------------------                           
+No. Birders Attending                               1                           
+                                                                                
+                                                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               = END OF REPORT =
+
+10 rows selected.
+
+SP2-0158: unknown COLUMN option "brdr_name"
+
+Fri Dec 09                                                             page    1
+                     = Birder Percent of Total Sightings =
+
+BRDR_NAME            Percent                                                    
+-------------------- -------                                                    
+Nitsua                   .20                                                    
+StinkBird                .20                                                    
+Wings                    .20                                                    
+BirdGuy_333              .10                                                    
+Envy                     .10                                                    
+Hermes                   .10                                                    
+Stuart                   .10                                                    
+Billy                    .00                                                    
+Falco                    .00                                                    
+Sloth                    .00                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               = END OF REPORT =
+
+10 rows selected.
+

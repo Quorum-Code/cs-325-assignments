@@ -1,0 +1,37 @@
+========
+Report 1
+========
+
+This file reports the number of entries found in each table associated
+with "BirdBook" project for CS 325 - 2022
+
+=> Birder Table <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Event Table <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Sighting Table <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Location Table <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+
+=> Bird Table <=
+
+  COUNT(*)                                                                      
+----------                                                                      
+        10                                                                      
+

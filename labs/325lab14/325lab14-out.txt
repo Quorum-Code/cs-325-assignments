@@ -1,0 +1,115 @@
+"==========="
+"Evan Putnam"
+"==========="
+""
+"============="
+"Lab Problem 1"
+"============="
+
+Last Name       Day of Week                                                     
+--------------- ------------------------------------                            
+King            Thursday                                                        
+Jones           Monday                                                          
+Blake           Wednesday                                                       
+Raimi           Saturday                                                        
+Ford            Monday                                                          
+Smith           Monday                                                          
+Michaels        Tuesday                                                         
+Ward            Friday                                                          
+Martin          Friday                                                          
+Scott           Friday                                                          
+Turner          Sunday                                                          
+
+Last Name       Day of Week                                                     
+--------------- ------------------------------------                            
+Adams           Sunday                                                          
+James           Sunday                                                          
+Miller          Saturday                                                        
+
+14 rows selected.
+
+"============="
+"Lab Problem 2"
+"============="
+
+First Four                                                                      
+----------------                                                                
+KING                                                                            
+JONE                                                                            
+BLAK                                                                            
+RAIM                                                                            
+FORD                                                                            
+SMIT                                                                            
+MICH                                                                            
+WARD                                                                            
+MART                                                                            
+SCOT                                                                            
+TURN                                                                            
+
+First Four                                                                      
+----------------                                                                
+ADAM                                                                            
+JAME                                                                            
+MILL                                                                            
+
+14 rows selected.
+
+"============="
+"Lab Problem 3"
+"============="
+
+EMPL_LAST_NAME  HIREDATE  ELIG_DATE                                             
+--------------- --------- ---------                                             
+King            17-NOV-11 17-MAY-12                                             
+Jones           02-APR-12 02-OCT-12                                             
+Blake           01-MAY-13 01-NOV-13                                             
+Raimi           09-JUN-12 09-DEC-12                                             
+Ford            03-DEC-12 03-JUN-13                                             
+Smith           17-DEC-12 17-JUN-13                                             
+Michaels        20-FEB-18 20-AUG-18                                             
+Ward            22-FEB-19 22-AUG-19                                             
+Martin          28-SEP-18 28-MAR-19                                             
+Scott           09-NOV-18 09-MAY-19                                             
+Turner          08-SEP-19 08-MAR-20                                             
+
+EMPL_LAST_NAME  HIREDATE  ELIG_DATE                                             
+--------------- --------- ---------                                             
+Adams           23-SEP-18 23-MAR-19                                             
+James           03-DEC-17 03-JUN-18                                             
+Miller          23-JAN-16 23-JUL-16                                             
+
+14 rows selected.
+
+"============="
+"Lab Problem 4"
+"============="
+
+EMPL_LAST_NAME  Months Hired YY                                                 
+--------------- ------------ --                                                 
+King              132.531468 11                                                 
+Jones                    128 12                                                 
+Blake             115.047597 13                                                 
+Raimi             125.789532 12                                                 
+Ford              119.983081 12                                                 
+Smith             119.531468 12                                                 
+Michaels          57.4346935 18                                                 
+Ward              45.3701773 19                                                 
+Martin             50.176629 18                                                 
+Scott             48.7895322 18                                                 
+Turner            38.8217902 19                                                 
+
+EMPL_LAST_NAME  Months Hired YY                                                 
+--------------- ------------ --                                                 
+Adams             50.3379193 18                                                 
+James             59.9830806 17                                                 
+Miller            82.3379193 16                                                 
+
+14 rows selected.
+
+
+St First 3 of C                                                                 
+-- ------------                                                                 
+ca For                                                                          
+ca McK                                                                          
+ca Arc                                                                          
+

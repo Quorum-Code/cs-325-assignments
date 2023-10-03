@@ -1,0 +1,113 @@
+=================
+Displaying Birder
+=================
+
+BRDR_ID BRDR_NAME            FAVBIRD FAVLOC DATE_JOINED                         
+------- -------------------- ------- ------ -----------                         
+1       BirdGuy_333          8       1      05-DEC-22                           
+2       StinkBird            5       6      18-AUG-19                           
+3       Hermes               10      3      28-DEC-00                           
+4       Billy                1       1      13-FEB-22                           
+5       Sloth                3       4      11-NOV-11                           
+6       Envy                 2       2      24-APR-17                           
+7       Falco                8       8      01-JUN-22                           
+8       Nitsua               4       7      29-JUL-22                           
+9       Wings                8       1      03-SEP-18                           
+10      Stuart               8       7      27-OCT-17                           
+
+10 rows selected.
+
+===============
+Displaying Bird
+===============
+
+BIRD_ID BIRD_NAME                                                               
+------- --------------------------------                                        
+1       Mountain Quail                                                          
+2       Dark-eyed Junco                                                         
+3       Northern Harrier                                                        
+4       Cackling Goose                                                          
+5       Brown Pelican                                                           
+6       Pelagic Cormorant                                                       
+7       Acorn Woodpecker                                                        
+8       Stellar's Jay                                                           
+9       Western Bluebird                                                        
+10      Ruddy Duck                                                              
+
+10 rows selected.
+
+===================
+Displaying Location
+===================
+
+LOC_ID LOC_NAME                                                                 
+------ --------------------------------                                         
+1      Arcata Marsh                                                             
+2      Strawberry Rock                                                          
+3      Arcata Coast                                                             
+4      Arcata Bottoms                                                           
+5      Eureka Coast                                                             
+6      North Jetty                                                              
+7      South Jetty                                                              
+8      Mad River Estuary                                                        
+9      Airport Rd.                                                              
+10     Clam Beach                                                               
+
+10 rows selected.
+
+================
+Displaying Event
+================
+
+EVENT_ID HOST_ID EVENT_TITLE                      EVENT_DATE                    
+-------- ------- -------------------------------- ----------                    
+1        9       Christmas Bird Count             14-DEC-22                     
+2        2       Godwit Days                      13-APR-23                     
+3        8       Bird Walk                        11-FEB-23                     
+4        9       Audubon Society Bird Tour        04-DEC-23                     
+5        1       Arcata Marsh Birding             31-DEC-22                     
+6        8       California Condor Talk           16-JAN-23                     
+7        3       North Jetty Walk                 01-JAN-23                     
+8        10      Clam Beach Cleanup               10-DEC-22                     
+10       2       Samoa Dunes Nature Walk          20-DEC-22                     
+
+9 rows selected.
+
+=================================
+Displaying Birder_attending_event
+=================================
+
+EVENT_ID BRDR_ID                                                                
+-------- -------                                                                
+7        1                                                                      
+2        1                                                                      
+1        1                                                                      
+1        6                                                                      
+1        9                                                                      
+6        3                                                                      
+6        7                                                                      
+6        4                                                                      
+6        5                                                                      
+8        10                                                                     
+
+10 rows selected.
+
+===================
+Displaying Sighting
+===================
+
+SIGHT_ID BRDR_ID BIRD_ID LOC_ID  NUM_BIRDS                                      
+-------- ------- ------- ------ ----------                                      
+1        9       4       8               8                                      
+2        10      7       6               2                                      
+3        2       3       7              15                                      
+4        2       1       7              20                                      
+5        6       9       2               1                                      
+6        3       5       7              38                                      
+7        1       8       4               5                                      
+8        8       2       1               3                                      
+9        8       10      3              10                                      
+10       9       6       3              99                                      
+
+10 rows selected.
+
